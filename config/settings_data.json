@@ -91,13 +91,13 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/overhead-shot-of-fresh-apricots-being-halved-and-pitted.jpg",
           "alignment": "center",
-          "title": "The best cobbler!!",
-          "text": "<p>You will love it :)<\/p>",
-          "hero_size": "medium",
+          "title": "The Best Cobbler!!",
+          "text": "<p><strong>You will love it :)<\/strong><\/p>",
+          "hero_size": "x-large",
           "text_size": "large",
-          "button_label": "",
+          "button_label": "Shop Now!",
           "button_link": ""
         }
       },
