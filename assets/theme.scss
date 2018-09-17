@@ -307,11 +307,11 @@ $color-sale-text: #7796a8;
 $color-small-button: #fff;
 $color-small-button-text: #3d4246;
 $color-text-field: #fff;
-$color-text-field-text: #000;
+$color-text-field-text: #0300ff;
 $color-navigation-text: #3d4246;
 
 // Button colors
-$color-btn-primary: #7796a8;
+$color-btn-primary: #e32c2b;
 $color-btn-primary-text: #fff;
 
 // Link buttons and secondary cta
@@ -372,7 +372,7 @@ $z-index-announcement-bar: 10;
 $z-index-skip-to-content: 10000; // really high to be safe of app markup
 
 /*================ SVG ================*/
-$svg-select-icon: #{'//cdn.shopify.com/s/files/1/2163/0613/t/1/assets/ico-select.svg?8305595957492023071'};
+$svg-select-icon: #{'//cdn.shopify.com/s/files/1/2163/0613/t/1/assets/ico-select.svg?7782037748301507508'};
 
 /*================ Drawers ================*/
 $transition-drawer: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
@@ -449,7 +449,7 @@ $slick-opacity-not-active: 0.25;
 
 // Only called once so make sure proper file is grabbed
 @function slick-image-url($url) {
-  @return url(//cdn.shopify.com/s/files/1/2163/0613/t/1/assets/ajax-loader.gif?8305595957492023071);
+  @return url(//cdn.shopify.com/s/files/1/2163/0613/t/1/assets/ajax-loader.gif?7782037748301507508);
 }
 
 // Unused intentionally
