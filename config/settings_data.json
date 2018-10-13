@@ -27,11 +27,11 @@
     "pluginseo_metaDescription404Template": "",
     "pluginseo_structuredDataDisplayLogo": false,
     "pluginseo_structuredDataSocialProfileLinks": "",
-    "color_text": "#3d4246",
+    "color_text": "#fff",
     "color_body_text": "#788188",
-    "color_sale_text": "#7796a8",
+    "color_sale_text": "#e32c2b",
     "color_borders": "#e8e9eb",
-    "color_button": "#e32c2b",
+    "color_button": "#1f9366",
     "color_button_text": "#fff",
     "color_small_button": "#fff",
     "color_small_button_text": "#3d4246",
@@ -91,11 +91,11 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/overhead-shot-of-fresh-apricots-being-halved-and-pitted.jpg",
+          "image": "shopify:\/\/shop_images\/baked-apple-pie.jpg",
           "alignment": "center",
           "title": "The Best Cobbler!!",
-          "text": "<p><strong>You will love it :)<\/strong><\/p>",
-          "hero_size": "x-large",
+          "text": "<p>The most delicious :)<\/p>",
+          "hero_size": "x-small",
           "text_size": "large",
           "button_label": "Shop Now!",
           "button_link": ""
@@ -136,25 +136,14 @@
           "text_size": "medium"
         }
       },
-      "featured-collections": {
-        "type": "collection",
-        "settings": {
-          "title": "Featured collection",
-          "collection": "frontpage",
-          "grid": "3",
-          "rows": "2",
-          "show_vendor": false,
-          "show_view_all": false
-        }
-      },
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/overhead-shot-of-fresh-apricots-being-halved-and-pitted.jpg",
           "layout": "left",
           "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
+          "text": "<p>Any one can bring a&nbsp;pie&nbsp;to a dinner party, be bold and bring a cobbler!<\/p>",
+          "button_label": "View Selection",
           "button_link": ""
         }
       },
@@ -170,7 +159,6 @@
     },
     "content_for_index": [
       "hero",
-      "featured-collections",
       "feature-row",
       "slideshow"
     ]
