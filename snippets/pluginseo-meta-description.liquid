@@ -47,7 +47,11 @@
       {% assign mDFTemp = '-te_pr' %}
     {% when 'collection' %}
       {% assign defaultMetaDescription = collection.description %}
-      {% assign metaDescriptionTemplate = settings.pluginseo_metaDescriptionCollectionTemplate %}
+      {% if collection.handle == 'all' %}
+        {% assign metaDescriptionTemplate = settings.pluginseo_metaDescriptionCatalogTemplate %}
+      {% else %}
+        {% assign metaDescriptionTemplate = settings.pluginseo_metaDescriptionCollectionTemplate %}
+      {% endif %}
       {% assign mDFTemp = '-te_co' %}
     {% when 'blog' %}
       {% assign metaDescriptionTemplate = settings.pluginseo_metaDescriptionBlogTemplate %}
