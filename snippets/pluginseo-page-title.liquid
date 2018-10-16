@@ -52,7 +52,11 @@
       {% assign pTFTemp = '-te_pr' %}
     {% when 'collection' %}
       {% assign defaultPageTitle = collection.title | escape %}
-      {% assign pageTitleTemplate = settings.pluginseo_pageTitleCollectionTemplate %}
+      {% if collection.handle == 'all' %}
+        {% assign pageTitleTemplate = settings.pluginseo_pageTitleCatalogTemplate %}
+      {% else %}
+        {% assign pageTitleTemplate = settings.pluginseo_pageTitleCollectionTemplate %}
+      {% endif %}
       {% assign pTFTemp = '-te_co' %}
     {% when 'blog' %}
       {% assign defaultPageTitle = blog.title | escape %}

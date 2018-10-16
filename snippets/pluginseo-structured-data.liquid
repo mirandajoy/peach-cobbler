@@ -226,6 +226,7 @@ https://help.shopify.com/themes/customization/navigation/add-breadcrumbs
     {
       "@context": "http://schema.org/",
       "@type": "Product",
+      "@id": {{ canonical_url | append: '#product' | json }},
       "name": "{{ productTitle }}",
       "image": "https:{{ product.featured_image | product_img_url: '450x450' }}",
       "description": "{{ productDescription | strip_html | escape }}",
