@@ -16,6 +16,8 @@
 {%- assign _LINE_FEED = "
 " -%}
 
+{%- assign useMinification = true -%}
+
 {%- assign size = minified | size -%}
 {%- unless useMinification and size < 4417664 -%}
 {{ minified }}
@@ -44,7 +46,7 @@
 " | replace: "
   " , "
 " | replace: "
- 
+
 " , "
 " -%}
 
