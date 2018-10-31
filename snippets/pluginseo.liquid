@@ -1,8 +1,8 @@
 {% comment %}
-  version: 1.1.8
+  version: 1.2.0
 {% endcomment %}
 
-{% comment %}
+{%- comment -%}
   ----------------------------------------------------------------------------------
    Plug in SEO Plus for Shopify
 
@@ -10,17 +10,17 @@
 
    This file is subject to the license at https://www.pluginseo.com/eula
   ----------------------------------------------------------------------------------
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign licensedTo = '1118834a-3e97-4388-a8d1-f7b85c226891' %}
-{% assign pluginseoVerbose = false %}
-{% assign pageUnderscoreTitle = 'page' | append: '_' | append: 'title' %}
-{% assign pageUnderscoreDescription = 'page' | append: '_' | append: 'description' %}
+{%- assign licensedTo = 'e70536b5-f3bb-45da-b5b2-babe3cefa397' -%}
+{%- assign pluginseoVerbose = false -%}
+{%- assign pageUnderscoreTitle = 'page' | append: '_' | append: 'title' -%}
+{%- assign pageUnderscoreDescription = 'page' | append: '_' | append: 'description' -%}
 
-{% include 'pluginseo-langify' %}
-{% include 'pluginseo-page-title' %}
-{% include 'pluginseo-meta-description' %}
-{% include 'pluginseo-structured-data' %}
-{% include 'pluginseo-not-found' %}
+{%- include 'pluginseo-langify' -%}
+{%- include 'pluginseo-page-title' -%}
+{%- include 'pluginseo-meta-description' -%}
+{%- include 'pluginseo-structured-data' -%}
+{%- include 'pluginseo-not-found' -%}
 
-<meta name="pluginseo" content="Plug in SEO Plus" data-ptf="{{ pTF }}" data-mdf="{{ mDF }}" />
+<meta name="pluginseo" content="Plug in SEO Plus" data-ptf="{{- pTF -}}" data-mdf="{{- mDF -}}" />
